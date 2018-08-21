@@ -3,7 +3,5 @@ android:
   components:
     - tools
     - platform-tools
-    - build-tools-24.0.3
+    - build-tools-27.0.3
     - android-24
-before_install:
-  - yes | sdkmanager "platforms;android-24"
